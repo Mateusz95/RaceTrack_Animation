@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9FB3CC9F-A1F8-4B15-BF24-E20E60804DD1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Animacja</RootNamespace>
+    <AssemblyName>Animacja</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="animacja\1.png" />
+    <Content Include="animacja\10.png" />
+    <Content Include="animacja\100.png" />
+    <Content Include="animacja\101.png" />
+    <Content Include="animacja\102.png" />
+    <Content Include="animacja\103.png" />
+    <Content Include="animacja\104.png" />
+    <Content Include="animacja\105.png" />
+    <Content Include="animacja\106.png" />
+    <Content Include="animacja\107.png" />
+    <Content Include="animacja\108.png" />
+    <Content Include="animacja\109.png" />
+    <Content Include="animacja\11.png" />
+    <Content Include="animacja\110.png" />
+    <Content Include="animacja\111.png" />
+    <Content Include="animacja\112.png" />
+    <Content Include="animacja\113.png" />
+    <Content Include="animacja\114.png" />
+    <Content Include="animacja\115.png" />
+    <Content Include="animacja\116.png" />
+    <Content Include="animacja\117.png" />
+    <Content Include="animacja\118.png" />
+    <Content Include="animacja\119.png" />
+    <Content Include="animacja\12.png" />
+    <Content Include="animacja\120.png" />
+    <Content Include="animacja\121.png" />
+    <Content Include="animacja\122.png" />
+    <Content Include="animacja\123.png" />
+    <Content Include="animacja\124.png" />
+    <Content Include="animacja\125.png" />
+    <Content Include="animacja\126.png" />
+    <Content Include="animacja\127.png" />
+    <Content Include="animacja\128.png" />
+    <Content Include="animacja\129.png" />
+    <Content Include="animacja\13.png" />
+    <Content Include="animacja\130.png" />
+    <Content Include="animacja\131.png" />
+    <Content Include="animacja\132.png" />
+    <Content Include="animacja\133.png" />
+    <Content Include="animacja\134.png" />
+    <Content Include="animacja\135.png" />
+    <Content Include="animacja\136.png" />
+    <Content Include="animacja\137.png" />
+    <Content Include="animacja\138.png" />
+    <Content Include="animacja\139.png" />
+    <Content Include="animacja\14.png" />
+    <Content Include="animacja\140.png" />
+    <Content Include="animacja\141.png" />
+    <Content Include="animacja\142.png" />
+    <Content Include="animacja\143.png" />
+    <Content Include="animacja\144.png" />
+    <Content Include="animacja\145.png" />
+    <Content Include="animacja\146.png" />
+    <Content Include="animacja\147.png" />
+    <Content Include="animacja\148.png" />
+    <Content Include="animacja\149.png" />
+    <Content Include="animacja\15.png" />
+    <Content Include="animacja\150.png" />
+    <Content Include="animacja\151.png" />
+    <Content Include="animacja\152.png" />
+    <Content Include="animacja\153.png" />
+    <Content Include="animacja\154.png" />
+    <Content Include="animacja\155.png" />
+    <Content Include="animacja\156.png" />
+    <Content Include="animacja\157.png" />
+    <Content Include="animacja\158.png" />
+    <Content Include="animacja\159.png" />
+    <Content Include="animacja\16.png" />
+    <Content Include="animacja\160.png" />
+    <Content Include="animacja\161.png" />
+    <Content Include="animacja\162.png" />
+    <Content Include="animacja\163.png" />
+    <Content Include="animacja\164.png" />
+    <Content Include="animacja\165.png" />
+    <Content Include="animacja\166.png" />
+    <Content Include="animacja\167.png" />
+    <Content Include="animacja\168.png" />
+    <Content Include="animacja\169.png" />
+    <Content Include="animacja\17.png" />
+    <Content Include="animacja\170.png" />
+    <Content Include="animacja\171.png" />
+    <Content Include="animacja\172.png" />
+    <Content Include="animacja\173.png" />
+    <Content Include="animacja\174.png" />
+    <Content Include="animacja\175.png" />
+    <Content Include="animacja\176.png" />
+    <Content Include="animacja\177.png" />
+    <Content Include="animacja\178.png" />
+    <Content Include="animacja\179.png" />
+    <Content Include="animacja\18.png" />
+    <Content Include="animacja\180.png" />
+    <Content Include="animacja\181.png" />
+    <Content Include="animacja\182.png" />
+    <Content Include="animacja\183.png" />
+    <Content Include="animacja\184.png" />
+    <Content Include="animacja\185.png" />
+    <Content Include="animacja\19.png" />
+    <Content Include="animacja\2.png" />
+    <Content Include="animacja\20.png" />
+    <Content Include="animacja\21.png" />
+    <Content Include="animacja\22.png" />
+    <Content Include="animacja\23.png" />
+    <Content Include="animacja\24.png" />
+    <Content Include="animacja\25.png" />
+    <Content Include="animacja\26.png" />
+    <Content Include="animacja\27.png" />
+    <Content Include="animacja\28.png" />
+    <Content Include="animacja\29.png" />
+    <Content Include="animacja\3.png" />
+    <Content Include="animacja\30.png" />
+    <Content Include="animacja\31.png" />
+    <Content Include="animacja\32.png" />
+    <Content Include="animacja\33.png" />
+    <Content Include="animacja\34.png" />
+    <Content Include="animacja\35.png" />
+    <Content Include="animacja\36.png" />
+    <Content Include="animacja\37.png" />
+    <Content Include="animacja\38.png" />
+    <Content Include="animacja\39.png" />
+    <Content Include="animacja\4.png" />
+    <Content Include="animacja\40.png" />
+    <Content Include="animacja\41.png" />
+    <Content Include="animacja\42.png" />
+    <Content Include="animacja\43.png" />
+    <Content Include="animacja\44.png" />
+    <Content Include="animacja\45.png" />
+    <Content Include="animacja\46.png" />
+    <Content Include="animacja\47.png" />
+    <Content Include="animacja\48.png" />
+    <Content Include="animacja\49.png" />
+    <Content Include="animacja\5.png" />
+    <Content Include="animacja\50.png" />
+    <Content Include="animacja\51.png" />
+    <Content Include="animacja\52.png" />
+    <Content Include="animacja\53.png" />
+    <Content Include="animacja\54.png" />
+    <Content Include="animacja\55.png" />
+    <Content Include="animacja\56.png" />
+    <Content Include="animacja\57.png" />
+    <Content Include="animacja\58.png" />
+    <Content Include="animacja\59.png" />
+    <Content Include="animacja\6.png" />
+    <Content Include="animacja\60.png" />
+    <Content Include="animacja\61.png" />
+    <Content Include="animacja\62.png" />
+    <Content Include="animacja\63.png" />
+    <Content Include="animacja\64.png" />
+    <Content Include="animacja\65.png" />
+    <Content Include="animacja\66.png" />
+    <Content Include="animacja\67.png" />
+    <Content Include="animacja\68.png" />
+    <Content Include="animacja\69.png" />
+    <Content Include="animacja\7.png" />
+    <Content Include="animacja\70.png" />
+    <Content Include="animacja\71.png" />
+    <Content Include="animacja\72.png" />
+    <Content Include="animacja\73.png" />
+    <Content Include="animacja\74.png" />
+    <Content Include="animacja\75.png" />
+    <Content Include="animacja\76.png" />
+    <Content Include="animacja\77.png" />
+    <Content Include="animacja\78.png" />
+    <Content Include="animacja\79.png" />
+    <Content Include="animacja\8.png" />
+    <Content Include="animacja\80.png" />
+    <Content Include="animacja\81.png" />
+    <Content Include="animacja\82.png" />
+    <Content Include="animacja\83.png" />
+    <Content Include="animacja\84.png" />
+    <Content Include="animacja\85.png" />
+    <Content Include="animacja\86.png" />
+    <Content Include="animacja\87.png" />
+    <Content Include="animacja\88.png" />
+    <Content Include="animacja\89.png" />
+    <Content Include="animacja\9.png" />
+    <Content Include="animacja\90.png" />
+    <Content Include="animacja\91.png" />
+    <Content Include="animacja\92.png" />
+    <Content Include="animacja\93.png" />
+    <Content Include="animacja\94.png" />
+    <Content Include="animacja\95.png" />
+    <Content Include="animacja\96.png" />
+    <Content Include="animacja\97.png" />
+    <Content Include="animacja\98.png" />
+    <Content Include="animacja\99.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
