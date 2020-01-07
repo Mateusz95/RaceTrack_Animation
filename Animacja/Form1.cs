@@ -28,9 +28,6 @@ namespace Animacja
             this.WindowState = FormWindowState.Maximized;
             pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 
-            btnStart.BackColor = Color.FromArgb(64, 22, 50);
-            btnStop.BackColor = Color.FromArgb(64, 22, 50);
-
             tab = new string[89];
             for (int j = 0; j < tab.Length; j++)
             {
