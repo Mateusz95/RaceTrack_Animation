@@ -42,7 +42,7 @@ namespace Animacja
             FrqSent();
         }
 
-        private void FrqSent()
+        private void FrqSent() //funkcja szybkiego wyswietlania obrazow
         {
             while (i <= 88 && !_stop)
             {
@@ -68,12 +68,12 @@ namespace Animacja
             _stop = true;
         }
 
-        private void trackBar1_Scroll(object sender, EventArgs e)
+        private void trackBar1_Scroll(object sender, EventArgs e) //prędkość wyświetlania obrazów
         {
             interval = trackBar1.Value;
         }
 
-        private void trackBar2_Scroll(object sender, EventArgs e)
+        private void trackBar2_Scroll(object sender, EventArgs e) //funkcja przewijania wyswietlanych obrazow
         {
             i = trackBar2.Value;
 
