@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -34,6 +36,9 @@ namespace Animacja
             {
                 tab[j] = (j + 1).ToString() + ".png";
             }
+            //MessageBox.Show(Environment.CurrentDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)); //Pokazuje w jakim środowisku działa program
+           
+
         }
 
         private void btnStart_Click(object sender, EventArgs e)
@@ -51,7 +56,7 @@ namespace Animacja
                 {
                     i = i + 1;
                     Application.DoEvents();
-                    pictureBox1.ImageLocation = @"C:\Users\grzeg\Desktop\Animacja\Animacja\Animacja\animacja\mg\" + tab[i];
+                    pictureBox1.ImageLocation = "../../animacja/mg/" + tab[i]; // Opis ścieżki - wyjście z Debug, wyjście z bin -> wejście do animacja/mg/ + obrazek
                     pictureBox1.Load();
                     pictureBox1.Refresh();
                     System.Threading.Thread.Sleep(interval);
@@ -77,7 +82,7 @@ namespace Animacja
         {
             i = trackBar2.Value;
 
-            pictureBox1.ImageLocation = @"C:\Users\grzeg\Desktop\Animacja\Animacja\Animacja\animacja\mg\" + tab[i];
+            pictureBox1.ImageLocation = "../../animacja/mg/" + tab[i];
             pictureBox1.Load();
             pictureBox1.Refresh();
             System.Threading.Thread.Sleep(interval);
